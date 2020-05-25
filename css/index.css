@@ -1,0 +1,48 @@
+#slide {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.singleImg {
+    width: 400px; 
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transition: linear 1s;
+}
+
+#next {
+    position: absolute;
+    top: 250px;
+    right: 20px;
+    width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-left: 35px solid grey;
+    border-bottom: 20px solid transparent;
+    cursor: pointer;
+    transition: linear 1s;
+}
+
+#back {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-right: 35px solid grey;
+    border-bottom: 20px solid transparent;
+    cursor: pointer;
+    transition: linear 1s;
+}
+
+
+
+
+
+
